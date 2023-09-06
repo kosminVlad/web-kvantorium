@@ -1,5 +1,10 @@
-const mainTitle = document.getElementById('main-title')
+const redTitle = document.getElementById("red-title")
+const blueTitle = document.getElementById("blue-title")
 
-document.addEventListener('click', () => {
-  mainTitle.innerText = 'Javascript тут'
-})
+redTitle.addEventListener(
+  "click", () => redTitle.classList.add("red-title")
+)
+
+blueTitle.addEventListener(
+  "dblclick", () => blueTitle.classList.add("blue-title")
+)

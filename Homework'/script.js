@@ -76,6 +76,7 @@ const GradesID = document.getElementById('Grades-id')
 
 buttonAVG.addEventListener('click', () => {
     AvgBall.innerText = `Средний балл: ${John.averageBall()}`
+    John.averageBall = 0
 })
 
 buttonAVG.addEventListener('click', () => {

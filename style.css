@@ -1,3 +1,17 @@
-.nothing {
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: inline-flex;
+  height: 100px;
+  width: 100%;
+  padding: 33px 165px 32px 165px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  background: #E1EDE6;
 }

@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   width: 100%;
   background-color: #f4f6f5;
 }
@@ -73,7 +74,10 @@ header {
 }
 
 main {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-title {
@@ -120,7 +124,7 @@ main {
   align-items: center;
   gap: 6px;
   flex-shrink: 0;
-  
+
   color: #598D66;
   font-family: Raleway;
   font-size: 20px;
@@ -130,4 +134,23 @@ main {
 
   border-radius: 16px;
   border: 1px solid #598D66;
+}
+
+.main-content {
+  display: flex;
+  width: 1110px;
+  height: 1460px;
+}
+
+.main-content-title {
+  height: 44px;
+}
+
+.main-content-title-h1 {
+  color: #2C2D35;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 44px */
 }

@@ -346,6 +346,165 @@ main {
 
 .our-photo {
   width: 80px;
-height: 80px;
-border-radius: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+
+footer {
+  margin-top: 128px;
+  width: 100%;
+  height: 168px;
+  flex-shrink: 0;
+
+  background: #E1EDE6;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-block1 {
+  margin-top: 23px;
+}
+
+.footer-icon-cactus {
+  display: inline-flex;
+  height: 35px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.phone-number-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 35px;
+}
+
+.number {
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Masterskaya {
+  color: #86928B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-block2 {
+  display: flex;
+  width: 600px;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 23px;
+}
+
+.footer-cactuses {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.footer-cactuses-h1 {
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-cactus {
+  color: #86928B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+}
+
+.footer-news {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.footer-news-h1 {
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.year {
+  color: #86928B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+}
+
+.footer-aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.footer-aboutUs-h1 {
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rabotnik {
+  color: #86928B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+}
+
+.footer-block3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 23px;
+  width: 150px;
+}
+
+.footer-social {
+  display: flex;
+  width: 132px;
+  justify-content: space-between;
+}
+
+.block3-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.block3-text {
+  color: #86928B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 14.4px */
 }

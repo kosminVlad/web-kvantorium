@@ -289,3 +289,14 @@ main {
 .second {
   margin-top: 30px;
 }
+
+.team-block {
+  margin-top: 129px;
+  width: 1110px;
+  height: 440px;
+  display: inline-flex;
+  padding: 44px 0px 0px 91px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 34px;
+}

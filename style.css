@@ -290,6 +290,14 @@ main {
   margin-top: 30px;
 }
 
+.our-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .team-block {
   margin-top: 129px;
   width: 1110px;
@@ -299,4 +307,45 @@ main {
   justify-content: flex-end;
   align-items: center;
   gap: 34px;
+}
+
+.our-team-text {
+  color: #2C2D35;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+  width: 552px;
+
+  margin-top: 20px;
+}
+
+.our-team-h1 {
+  color: #2C2D35;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  /* 44px */
+}
+
+.our-team-description {
+  display: flex;
+  padding-right: 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.our-team-photos {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.our-photo {
+  width: 80px;
+height: 80px;
+border-radius: 80px;
 }

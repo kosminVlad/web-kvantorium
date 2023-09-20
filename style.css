@@ -137,13 +137,20 @@ main {
 }
 
 .main-content {
+  margin-top: 130px;
   display: flex;
   width: 1110px;
   height: 1460px;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .main-content-title {
   height: 44px;
+  display: flex;
+  width: 1110px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .main-content-title-h1 {
@@ -152,5 +159,133 @@ main {
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: 110%; /* 44px */
+  line-height: 110%;
+  /* 44px */
+}
+
+.countries {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.country {
+  border-radius: 20px;
+  background: #D4E8D9;
+
+  display: flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.North-America {
+  color: #F4F6F5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  border-radius: 20px;
+  background: #376B44;
+}
+
+.main-contents-blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+
+}
+
+.cactus-block {
+  width: 350px;
+  height: 651px;
+  border-radius: 16px;
+  background: #E1EDE6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cactus-image {
+  width: 310px;
+  height: 422px;
+  flex-shrink: 0;
+  margin: 20px;
+}
+
+.cactus-name {
+  color: #86928B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-left: -60%;
+}
+
+.cactus-description {
+  width: 310px;
+
+  color: #2C2D35;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.description-price {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.cactus-price {
+  color: #598D66;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+}
+
+.add-to-basket {
+  display: flex;
+  width: 310px;
+  height: 54px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  border: 1px solid #598D66;
+
+  margin-top: 16px;
+
+  color: #598D66;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.second {
+  margin-top: 30px;
 }
